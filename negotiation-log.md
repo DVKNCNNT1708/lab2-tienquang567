@@ -1,97 +1,57 @@
-# Biên bản đàm phán hợp đồng API
+# Negotiation Log
 
-- Cặp đàm phán:
-- Product: A / B
-- Provider:
-- Consumer:
-- Phiên: v1.0
-- Ngày:
+## Issue 1
+Consumer yêu cầu response có username.
 
----
+Provider đồng ý.
 
-## Issue #1
-
-- Raised by: Consumer / Provider
-- Endpoint:
-- Concern:
-- Proposal:
-- Resolution: Accepted / Rejected / Modified
-- Rationale:
-- Impact:
+Status: Accepted
 
 ---
 
-## Issue #2
+## Issue 2
+Consumer yêu cầu thêm API lấy lịch sử truy cập.
 
-- Raised by: Consumer / Provider
-- Endpoint:
-- Concern:
-- Proposal:
-- Resolution: Accepted / Rejected / Modified
-- Rationale:
-- Impact:
+Provider đồng ý.
+
+Status: Accepted
 
 ---
 
-## Issue #3
+## Issue 3
+Provider đề xuất dùng Problem Details cho lỗi.
 
-- Raised by: Consumer / Provider
-- Endpoint:
-- Concern:
-- Proposal:
-- Resolution: Accepted / Rejected / Modified
-- Rationale:
-- Impact:
+Consumer đồng ý.
+
+Status: Accepted
 
 ---
 
-## Issue #4
+## Issue 4
+Consumer yêu cầu nullable middleName.
 
-- Raised by: Consumer / Provider
-- Endpoint:
-- Concern:
-- Proposal:
-- Resolution: Accepted / Rejected / Modified
-- Rationale:
-- Impact:
+Provider đồng ý.
+
+Status: Accepted
 
 ---
 
-## Issue #5
+## Issue 5
+Provider đề xuất discriminator cho User schema.
 
-- Raised by: Consumer / Provider
-- Endpoint:
-- Concern:
-- Proposal:
-- Resolution: Accepted / Rejected / Modified
-- Rationale:
-- Impact:
+Consumer đồng ý.
+
+Status: Accepted
 
 ---
 
-## Issue #6
+## Issue 6
+Hai bên thống nhất version API v1.0.0
 
-- Raised by: Consumer / Provider
-- Endpoint:
-- Concern:
-- Proposal:
-- Resolution: Accepted / Rejected / Modified
-- Rationale:
-- Impact:
+Status: Accepted
 
 ---
 
-# Chốt hợp đồng v1.0
-
-Provider sign-off:  
-Consumer sign-off:  
-Witness (GV/TA):    
-Date:               
-
----
-
-## Ghi chú warning nếu Spectral còn cảnh báo
-
-| Warning | Lý do chấp nhận tạm thời | Kế hoạch sửa |
-|---|---|---|
-|  |  |  |
+Signed-off-by:
+- Team Core
+- Team Access
